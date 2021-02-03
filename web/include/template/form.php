@@ -3,6 +3,10 @@ use PHPSimpleWebScraper\Registry;
 use PHPSimpleWebScraper\Utility\Utility;
 
 ?>
+<script type="text/javascript"> 
+	alert('GeeksforGeeks!'); 
+</script> 
+
 <!DOCTYPE html>
 <html>
 <head>
