@@ -14,11 +14,11 @@ require dirname( __FILE__ ) . '/include/class/Registry.php';
 header( 'Access-Control-Allow-Origin: *' );
 
 // Front-end Form
-if ( ! isset( $_REQUEST[ 'url' ] ) ) {
-    include( dirname( __FILE__ ) . '/include/template/form.php' );
-    exit;
-}
+// if ( ! isset( $_REQUEST[ 'url' ] ) ) {
+//     include( dirname( __FILE__ ) . '/include/template/form.php' );
+//     exit;
+// }
 // Fetched Results
-$_oScraper = new \PHPSimpleWebScraper\Scraper\ScraperHandler( $_REQUEST );
+$_oScraper = new \PHPSimpleWebScraper\Scraper\ScraperHandler( $_REQUEST[ 'https://phpscraper1.herokuapp.com' ] );
 $_oScraper->do();
 exit;

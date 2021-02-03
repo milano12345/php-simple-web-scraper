@@ -4,7 +4,7 @@ use PHPSimpleWebScraper\Utility\Utility;
 
 ?>
 <script type="text/javascript"> 
-	alert('GeeksforGeeks!'); 
+	//alert('GeeksforGeeks!'); 
 </script> 
 
 <!DOCTYPE html>
