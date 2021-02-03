@@ -38,6 +38,7 @@ use PHPSimpleWebScraper\Utility\Utility;
                 </div>
               <h2 class="subtitle">
                   <?php echo Registry::SUBTITLE; ?>
+                  <p>
               </h2>
             </div>
           </div>
@@ -45,7 +46,7 @@ use PHPSimpleWebScraper\Utility\Utility;
 
         <div class="level">
             <div style='width: 50%; margin-left: auto; margin-right: auto; text-align: center;'>
-                <p>Type a URL and press <code class="is-small">Go</code>.</p>
+                <p>Type a URL and jump twice and press <code class="is-small">Go</code>.</p>
                 <p>Use the URL shown in the address bar. For advanced usage, see <a href="<?php echo Registry::PROGRAM_URI;?>" target="_blank">here</a>.</p>
             </div>
         </div>
